@@ -5,7 +5,7 @@ function App() {
 
   // Fetching message from backend on mount
   useEffect(() => {
-    fetch("http://localhost:1823")
+    fetch("https://beez-portfolio.onrender.com")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   }, []);
