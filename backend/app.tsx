@@ -1,18 +1,18 @@
-const express = require("express");
-const mongoose = require("mongoose");
+import express from "express";
+import mongoose from "mongoose";
 const app = express();
-const cors = require("cors");
+import cors from "cors";
 require("dotenv").config();
 
 // middleware
 const corsOptions = {
-    origin: "https://beez-portfolio-ui.onrender.com" // frontend URI (ReactJS)
+    origin: "http://localhost:3000" // frontend URI (ReactJS)
 }
 app.use(express.json());
 app.use(cors(corsOptions));
 
 // connect MongoDB
-mongoose.connect(process.env.MONGODB_URI).then(() => {
+mongoose.connect(process.env.MONGODB_URI || "").then(() => {
     const PORT = process.env.PORT || 8000
     app.listen(PORT, () => {
         console.log(`App is Listening on PORT ${PORT}`);
