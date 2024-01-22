@@ -2,7 +2,8 @@ import express from "express";
 import mongoose from "mongoose";
 const app = express();
 import cors from "cors";
-require("dotenv").config();
+import * as dotenv from "dotenv";
+dotenv.config({ path:'/Users/infierno/Dev/beez-portfolio/backend/.env' });
 
 // middleware
 const corsOptions = {
@@ -12,6 +13,7 @@ app.use(express.json());
 app.use(cors(corsOptions));
 
 // connect MongoDB
+console.log(process.env.MONGODB_URI)
 mongoose.connect(process.env.MONGODB_URI || "").then(() => {
     const PORT = process.env.PORT || 8000
     app.listen(PORT, () => {
@@ -22,6 +24,6 @@ mongoose.connect(process.env.MONGODB_URI || "").then(() => {
 });
 
 // route
-app.get("/", (req, res) => {
-    res.status(201).json({message: "Connected to Backend!"});
+app.get("/health", (req, res) => {
+    res.status(201).json({message: "Connected to Backend here!"});
 });
