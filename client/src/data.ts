@@ -1,27 +1,86 @@
 // src/data.ts
 
 export const projects = [
-    {
+  {
       title: "React Reserve",
       subtitle: "MERN Stack",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
-    }
-  ];
-
-export const behanceEmbedLinks = [
-  "https://www.behance.net/embed/project/187340975?ilo0=1",
-  "https://www.behance.net/embed/project/163349469?ilo0=1",
-  "https://www.behance.net/embed/project/157000901?ilo0=1",
-  "https://www.behance.net/embed/project/104947913?ilo0=1",
-  "https://www.behance.net/embed/project/104267651?ilo0=1",
-  "https://www.behance.net/embed/project/128868857?ilo0=1",
-  "https://www.behance.net/embed/project/151567633?ilo0=1",
-  "https://www.behance.net/embed/project/128891511?ilo0=1",
-  "https://www.behance.net/embed/project/127510901?ilo0=1",
-  "https://www.behance.net/embed/project/128879721?ilo0=1",
+      link: "https://www.behance.net/embed/project/187340975?ilo0=1"
+  },
+  {
+      title: "React Reserve",
+      subtitle: "MERN Stack",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+      link: "https://www.behance.net/embed/project/163349469?ilo0=1"
+  },
+  {
+      title: "React Reserve",
+      subtitle: "MERN Stack",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+      link: "https://www.behance.net/embed/project/157000901?ilo0=1"
+  },
+  {
+      title: "React Reserve",
+      subtitle: "MERN Stack",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+      link: "https://www.behance.net/embed/project/104947913?ilo0=1"
+  },
+  {
+      title: "React Reserve",
+      subtitle: "MERN Stack",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+      link: "https://www.behance.net/embed/project/104267651?ilo0=1"
+  },
+  {
+      title: "React Reserve",
+      subtitle: "MERN Stack",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+      link: "https://www.behance.net/embed/project/128868857?ilo0=1"
+  },
+  {
+      title: "React Reserve",
+      subtitle: "MERN Stack",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+      link: "https://www.behance.net/embed/project/151567633?ilo0=1"
+  },
+  {
+      title: "React Reserve",
+      subtitle: "MERN Stack",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+      link: "https://www.behance.net/embed/project/128891511?ilo0=1"
+  },
+  {
+      title: "React Reserve",
+      subtitle: "MERN Stack",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+      link: "https://www.behance.net/embed/project/127510901?ilo0=1"
+  },
+  {
+      title: "React Reserve",
+      subtitle: "MERN Stack",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+      link: "https://www.behance.net/embed/project/128879721?ilo0=1"
+  },
 ]
 export const skills = [
     "Java",

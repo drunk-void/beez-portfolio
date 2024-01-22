@@ -26,7 +26,7 @@ const Contact: FC<ContactProps> = () => (
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a href={"mailto:" + CONTACT.EMAIL} className="text-indigo-400 leading-relaxed">
                 {CONTACT.EMAIL}
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">

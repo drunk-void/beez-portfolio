@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { ProjectsWrapper } from './Projects.styled';
-import { behanceEmbedLinks, projects } from "../../data";
+import { projects } from "../../data";
 
 interface ProjectsProps {}
 
@@ -20,8 +20,8 @@ const Projects: FC<ProjectsProps> = () => (
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {behanceEmbedLinks.map((link) => (
-            <iframe src={link} height="316" width="404" allowFullScreen frameBorder="0" allow="clipboard-write" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+          {projects.map((project) => (
+            <iframe title={project.title} src={project.link} height="316" width="404" allowFullScreen frameBorder="0" allow="clipboard-write" referrerPolicy="strict-origin-when-cross-origin"></iframe>
           ))}
           {/* {projects.map((project) => (
             <a
